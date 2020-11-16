@@ -1,0 +1,3 @@
+source "D:/Project_VillamTech/02.Tools/esp-idf/components/bootloader/Kconfig.projbuild"
+source "D:/Project_VillamTech/02.Tools/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "D:/Project_VillamTech/02.Tools/esp-idf/components/partition_table/Kconfig.projbuild"

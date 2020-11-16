@@ -1,0 +1,5 @@
+source "D:/Project_VillamTech/02.Tools/esp-idf/components/efuse/Kconfig"
+source "D:/Project_VillamTech/02.Tools/esp-idf/components/esp32/Kconfig"
+source "D:/Project_VillamTech/02.Tools/esp-idf/components/esp_common/Kconfig"
+source "D:/Project_VillamTech/02.Tools/esp-idf/components/log/Kconfig"
+source "D:/Project_VillamTech/02.Tools/esp-idf/components/spi_flash/Kconfig"

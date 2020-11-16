@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "D:/Project_VillamTech/02.Tools/esp-idf/components/bootloader/subproject",
+    "build_dir":          "D:/Project_VillamTech/03.Source_code/01.Begin/Test_configWifi/build/bootloader",
+    "config_file":        "D:/Project_VillamTech/03.Source_code/01.Begin/Test_configWifi/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3-dev-771-gc77c4ccf6-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "D:/Project_VillamTech/02.Tools/esp-idf/components/efuse/Kconfig;D:/Project_VillamTech/02.Tools/esp-idf/components/esp32/Kconfig;D:/Project_VillamTech/02.Tools/esp-idf/components/esp_common/Kconfig;D:/Project_VillamTech/02.Tools/esp-idf/components/log/Kconfig;D:/Project_VillamTech/02.Tools/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "D:/Project_VillamTech/02.Tools/esp-idf/components/bootloader/Kconfig.projbuild;D:/Project_VillamTech/02.Tools/esp-idf/components/esptool_py/Kconfig.projbuild;D:/Project_VillamTech/02.Tools/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "D:/Project_VillamTech/02.Tools/esp-idf/components/bootloader", "D:/Project_VillamTech/02.Tools/esp-idf/components/bootloader_support", "D:/Project_VillamTech/02.Tools/esp-idf/components/efuse", "D:/Project_VillamTech/02.Tools/esp-idf/components/esp32", "D:/Project_VillamTech/02.Tools/esp-idf/components/esp_common", "D:/Project_VillamTech/02.Tools/esp-idf/components/esp_rom", "D:/Project_VillamTech/02.Tools/esp-idf/components/esptool_py", "D:/Project_VillamTech/02.Tools/esp-idf/components/log", "D:/Project_VillamTech/02.Tools/esp-idf/components/bootloader/subproject/main", "D:/Project_VillamTech/02.Tools/esp-idf/components/bootloader/subproject/components/micro-ecc", "D:/Project_VillamTech/02.Tools/esp-idf/components/partition_table", "D:/Project_VillamTech/02.Tools/esp-idf/components/soc", "D:/Project_VillamTech/02.Tools/esp-idf/components/spi_flash", "D:/Project_VillamTech/02.Tools/esp-idf/components/xtensa", "" ]
+}
